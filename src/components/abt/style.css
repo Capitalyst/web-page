@@ -1,0 +1,1138 @@
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.rotate {
+    animation: rotation 7s infinite linear;
+}
+
+
+@keyframes rotations {
+    from {
+        transform: flip(0deg);
+    }
+
+    to {
+        transform: flip(359deg);
+    }
+}
+
+.rotates {
+    animation: rotations 7s infinite linear;
+}
+
+.abt h2 {
+    z-index: 9;
+    position: absolute;
+    color: #000;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.object {
+    transform: translateY(-10px) scale(1.2);
+    transition: .5s;
+}
+.objectsss {
+    transform: translateY(-10px) scale(1.2);
+    transition: .68s;
+}
+
+/* 2 section   */
+.g-color {
+    color: rgb(11, 84, 162);
+    font-size: 3.5vw;
+    font-family: var(--font-primary);
+    line-height: 5.7vw;
+}
+
+.text-con {
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#star1 {
+    position: absolute;
+    bottom: -50px;
+    right: 5px;
+}
+
+#star2 {
+    position: absolute;
+    top: -30px;
+    left: 100px;
+}
+
+#star3 {
+    position: absolute;
+    top: -30px;
+    right: 140px;
+}
+
+#coin1 {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+.text-1 p {
+    color: #000;
+    font-size: 3.5vw;
+    line-height: 5.7vw;
+    font-family: "U8-Bold", sans-serif;
+}
+
+.after-g:hover {
+    color: #00fd7a;
+    transition: .4s;
+}
+
+
+
+.g-colorr {
+    color: #00fd7a;
+    font-size: 12vw;
+    font-weight: bolder;
+    line-height: 8.7vw;
+}
+
+/* .env-text{
+    perspective: 10px;
+    overflow: hidden;
+    padding-top: 100px;
+}
+.env-text h1{
+    color: #000;
+    font-size: 12vw;
+    font-weight: bolder;
+    line-height: 8.7vw;
+        transform: translateY(-10px) scale(1.1);
+        transition: .68s;      
+} */
+
+/* .env-text {
+    height: 100vh;
+    width: 100;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+} */
+
+.env-text {
+    height: 60vh;
+    max-width: 100%;
+    display: flex;
+    place-items: center;
+    position: relative;
+    font-family: "U8-Bold", sans-serif;
+    /* top:0;   */
+    /* left:0; */
+    /* overflow-x: hidden; */
+}
+
+.env {
+    position: absolute;
+}
+
+
+h1 {
+    font-weight: bolder;
+    line-height: 8.7vw;
+}
+
+.grey-color {
+    color: #6e6e73;
+    font-size: 2vw;
+    font-weight: 500;
+    /* line-height: 2.7vw; */
+    /* padding-top: 10px; */
+}
+
+
+.table-1 {
+    margin: 0 auto;
+    width: 70%;
+    height: 100vh;
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 450px;
+    height: 600px;
+    text-align: center;
+    padding: 20px;
+    background-color: #5900ff;
+    color: #fff;
+}
+
+.table-2 {
+    margin: 0 auto;
+    width: 70%;
+    height: 100vh;
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 450px;
+    height: 600px;
+    text-align: center;
+    padding: 20px;
+    background-color: pink;
+    color: #fff;
+}
+
+
+
+.cartoon1 {
+    margin: 0 auto;
+    width: 70%;
+    height: 100vh;
+    background-image: url('../img/yashvi.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-position: center;
+}
+
+
+.cartoon2 {
+    margin: 0 auto;
+    width: 70%;
+    height: 100vh;
+    background-image: url('../img/yashvi1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-position: center;
+}
+
+
+
+/* ///////////////////////// slider suto///////////////// */
+.cards-1 {
+    width: 100%;
+    height: 100vh;
+    max-height: none;
+    max-width: none;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    text-align: left;
+    flex-flow: column;
+    flex: 0 auto;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 4vw 0 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    bottom: auto;
+    overflow: hidden;
+}
+.cards-2 {
+    width: 100%;
+    height: 100vh;
+    max-height: none;
+    max-width: none;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    text-align: left;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7vw 0 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    
+    position: absolute;
+    top: -100;
+    bottom: auto;
+    overflow: hidden;
+}
+
+.blue-t {
+    margin: 0 auto;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 350px;
+    height: 500px;
+    text-align: start;
+    padding: 20px;
+    background-color: #5900ff;
+    color: #fff;
+}
+
+.blue-t h3 {
+    padding: 20px 20px 0px 0px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.blue-t button {
+    color: black;
+    background-color: #5900ff;
+    font-size: 25px;
+    padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 40px;
+    box-shadow: 5px 10px;
+}
+
+.blue-t button:hover {
+    background-color: white;
+    transition: .4s;
+
+}
+.blue-t img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#leaf1 {
+    position: absolute;
+    top: 30px;
+    left: 240px;
+    z-index: 2;
+}
+
+#leaf2 {
+    position: absolute;
+    top: 350px;
+    left: 250px;
+    height: 140px;
+    z-index: 2;
+
+}
+
+#leaf3 {
+    position: absolute;
+    bottom: 200px;
+    right: 260px;
+    height: 80px;
+    z-index: 2;
+
+}
+
+#leaf4 {
+    position: absolute;
+    bottom: 390px;
+    right: 260px;
+    height: 160px;
+    z-index: 2;
+}
+
+#leaf5 {
+    position: absolute;
+    bottom: 250px;
+    left: 450px;
+    height: 160px;
+    z-index: -1;
+}
+
+#leaf6 {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    height: 160px;
+    z-index: 2;
+}
+
+#leaf7 {
+    position: absolute;
+    bottom: 170px;
+    right: 400px;
+    height: 260px;
+    z-index: 2;
+
+}
+
+#leaf8 {
+    position: absolute;
+    top: 160px;
+    left: 380px;
+    height: 130px;
+    z-index: 2;
+
+
+}
+
+
+
+
+
+
+
+.cards-3 {
+    width: 100%;
+    height: 100vh;
+    max-height: none;
+    max-width: none;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    text-align: left;
+    flex-flow: column;
+    flex: 0 auto;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 7vw 0 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    position: -webkit-sticky;
+    position: absolute;
+    /* top: -1500; */
+    bottom: auto;
+    overflow: hidden;
+}
+.green-t {
+    margin: 0 auto;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 350px;
+    height: 500px;
+    text-align: start;
+    padding: 20px;
+    background-color: #57e4cb;
+    color: #fff;
+
+}
+.green-t h3 {
+    padding: 20px 20px 0px 0px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.green-t button {
+    color: black;
+    background-color: #57e4cb;
+    font-size: 25px;
+    padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 40px;
+    box-shadow: 5px 10px;
+}
+
+.green-t button:hover {
+    background-color: white;
+    transition: .4s;
+
+}
+.green-t img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#lock1{
+    position: absolute;
+   top: 180px;
+   left: 450px;
+   z-index: -1;
+}
+#lock2{
+    position: absolute;
+   top: 440px;
+   left: 340px;
+   z-index: 2;
+}
+#lock3{
+    position: absolute;
+   bottom: 45px;
+   left: 80px;
+   z-index: 2;
+}
+#lock4{
+    position: absolute;
+   top: 90px;
+   left: 190px;
+   z-index: 2;
+}
+#lock5{
+    position: absolute;
+   bottom: 200px;
+   right: 190px;
+   z-index: 2;
+}
+#lock6{
+    position: absolute;
+   top: 160px;
+   right: 590px;
+   z-index: 2;
+   width: 35px;
+}
+#lock7{
+    position: absolute;
+   top: 160px;
+   right: 350px;
+   z-index: 2;
+}
+#lock8{
+    position: absolute;
+   bottom: 120px;
+   right: 450px;
+   z-index: 2;
+   width: 220px;
+}
+#lock9{
+    position: absolute;
+   top: 250px;
+   left: 100px;
+   z-index: 2;
+}
+#lock10{
+    position: absolute;
+   bottom: 0px;
+   right: 650px;
+   z-index: 2;
+}
+#lock11{
+    position: absolute;
+   bottom: 50px;
+   right: 350px;
+   z-index: 2;
+}
+
+
+
+
+
+
+
+
+.cards-4 {
+    width: 100%;
+    height: 112vh;
+    max-height: none;
+    max-width: none;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    text-align: left;
+    flex-flow: column;
+    flex: 0 auto;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 7vw 0 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    position: -webkit-sticky;
+    position: absolute;
+    /* top: -1500; */
+    bottom: auto;
+    overflow: hidden;
+}
+.skyblue-t {
+    margin: 0 auto;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 350px;
+    height: 500px;
+    text-align: start;
+    padding: 20px;
+    background-color: #65c9ff;;
+    color: #fff;
+}
+
+.skyblue-t h3 {
+    padding: 20px 20px 0px 0px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.skyblue-t button {
+    color: black;
+    background-color: #65c9ff;;
+    font-size: 25px;
+    padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 40px;
+    box-shadow: 5px 10px;
+}
+
+.skyblue-t button:hover {
+    background-color: white;
+    transition: .4s;
+}
+#drop1{
+    position: absolute;
+   top: 50px;
+   right: 150px;
+   z-index: 2;
+   width: 30px;
+}
+#drop2{
+    position: absolute;
+   top: 150px;
+   left: 190px;
+   z-index: 2;
+}
+#drop3{
+   position: absolute;
+   top: 20px;
+   left: 487px;
+   width: 80px;
+   z-index: 2;
+}
+#drop4{
+    position: absolute;
+   bottom: 290px;
+   right: 390px;
+   width: 25px;
+   z-index: 2;
+}
+#drop5{
+    position: absolute;
+   bottom: 190px;
+   left: 450px;
+   width: 25px;
+   z-index: 2;
+}
+#drop6{
+    position: absolute;
+   bottom: 100px;
+   left: 490px;
+   z-index: -2;
+}
+#drop7{
+    position: absolute;
+   top: 160px;
+   right: 330px;
+   width: 85px;
+   z-index: 2;
+}
+#drop8{
+    position: absolute;
+   bottom: 190px;
+   right: 290px;
+   width: 14px;
+   z-index: 2;
+}
+#drop9{
+    position: absolute;
+   bottom: 110px;
+   right: 490px;
+   z-index: 2;
+}
+#drop10{
+    position: absolute;
+   top: 0px;
+   right: 655px;
+   z-index: 2;
+}
+#drop11{
+    position: absolute;
+   bottom: 70px;
+   right: 230px;
+   z-index: 2;
+}
+#drop12{
+    position: absolute;
+   top: 240px;
+   left: 360px;
+   width: 17px;
+   z-index: 2;
+}
+#drop13{
+    position: absolute;
+   top: 280px;
+   left: 410px;
+   width: 44px;
+   z-index: 2;
+}
+#drop14{
+    position: absolute;
+   bottom: 40px;
+   left: 140px;
+   width: 44px;
+   z-index: 2;
+}
+#drop15{
+    position: absolute;
+   bottom: 240px;
+   right: 600px;
+   width: 44px;
+   z-index: 2;
+}
+
+
+
+
+
+
+
+.cards-5 {
+    width: 100%;
+    height: 108vh;
+    max-height: none;
+    max-width: none;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    text-align: left;
+    flex-flow: column;
+    flex: 0 auto;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 7vw 0 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    position: -webkit-sticky;
+    position: absolute;
+    /* top: -1500; */
+    bottom: auto;
+    overflow: hidden;
+}
+.orange-t {
+    margin: 0 auto;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 350px;
+    height: 500px;
+    text-align: start;
+    padding: 20px;
+    background-color: #fd7b03;
+    color: #fff;
+}
+
+.orange-t h3 {
+    padding: 20px 20px 0px 0px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.orange-t button {
+    color: black;
+    background-color: #fd7b03;
+    font-size: 25px;
+    padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 40px;
+    box-shadow: 5px 10px;
+}
+
+.orange-t button:hover {
+    background-color: white;
+    transition: .4s;
+}
+#cl1{
+    position: absolute;
+   bottom: 275px;
+   left: 370px;
+   z-index: 2;
+   width: 210px;
+}
+#cl2{
+    position: absolute;
+   top: 140px;
+   right: 190px;
+   z-index: 2;
+}
+#cl3{
+   position: absolute;
+   top: 220px;
+   right: 370px;
+   width: 80px;
+   z-index: 2;
+}
+#cl4{
+    position: absolute;
+   bottom: 90px;
+   right: 370px;
+   /* width: 25px; */
+   z-index: 2;
+}
+#cl5{
+    position: absolute;
+   bottom: 90px;
+   right: 450px;
+   /* width: 25px; */
+   z-index: -2;
+}
+#cl6{
+    position: absolute;
+   top: 200px;
+   left: 450px;
+   z-index: -2;
+}
+#cl7{
+    position: absolute;
+   bottom: 220px;
+   left: 300px;
+   /* width: 85px; */
+   z-index: 2;
+}
+#cl8{
+    position: absolute;
+   bottom: 190px;
+   right: 190px;
+   /* width: 14px; */
+   z-index: 2;
+}
+#cl9{
+    position: absolute;
+   top: 350px;
+   right: 390px;
+   z-index: 2;
+}
+#cl10{
+   position: absolute;
+   bottom: 35px;
+   left: 435px;
+   z-index: -2;
+}
+#cl11{
+   position: absolute;
+   top: 370px;
+   left: 170px;
+   z-index: 2;
+}
+#cl12{
+    position: absolute;
+   top: 250px;
+   right: 420px;
+   /* width: 17px; */
+   z-index: -2;
+}
+#cl13{
+    position: absolute;
+   top: 235px;
+   left: 60px;
+   /* width: 44px; */
+   z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cards-6 {
+    width: 100%;
+    height: 90vh;
+    max-height: none;
+    max-width: none;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    text-align: left;
+    flex-flow: column;
+    flex: 0 auto;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 7vw 0 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    position: -webkit-sticky;
+    position: absolute;
+    /* top: -1500; */
+    bottom: auto;
+    overflow: hidden;
+}
+.red-t {
+    margin: 0 auto;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 350px;
+    height: 500px;
+    text-align: start;
+    padding: 20px;
+    background-color: #fd5158;
+    color: #fff;
+}
+
+.red-t h3 {
+    padding: 20px 20px 0px 0px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.red-t button {
+    color: black;
+    background-color: #fd5158;
+    font-size: 25px;
+    padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 40px;
+    box-shadow: 5px 10px;
+}
+
+.red-t button:hover {
+    background-color: white;
+    transition: .4s;
+}
+#cr1{
+    position: absolute;
+   top: 290px;
+   left: 410px;
+   z-index: 2;
+   width: 150px;
+}
+#cr2{
+    position: absolute;
+   top: 210px;
+   right: 440px;
+   width: 150px;
+   z-index: 2;
+}
+#cr3{
+   position: absolute;
+   top: 215px;
+   left: 470px;
+   width: 80px;
+   z-index: -2;
+}
+#cr4{
+    position: absolute;
+   bottom: 200px;
+   right: 330px;
+   /* width: 25px;  */ 
+   z-index: 2;
+}
+#cr5{
+    position: absolute;
+   top: 185px;
+   left: 280px;
+   /* width: 25px; */
+   z-index: -2;
+}
+#cr6{
+    position: absolute;
+   bottom: 290px;
+   left: 160px;
+   z-index: 2;
+   /* width: 25px; */
+}
+#cr7{
+    position: absolute;
+   bottom: 205px;
+   left: 345px;
+   width: 70px;
+   z-index: 2;
+}
+#cr8{
+    position: absolute;
+   top: 190px;
+   right: 350px;
+   /* width: 14px; */
+   z-index: 2;
+}
+#cr9{
+    position: absolute;
+   top: 200px;
+   left: 300px;
+   z-index: 2;
+}
+#cr10{
+   position: absolute;
+   bottom: 80px;
+   right: 400px;
+   z-index: -2;
+}
+#cr11{
+   position: absolute;
+   top: 100px;
+   left: 400px;
+   width: 20px;
+   z-index: 2;
+}
+#cr12{
+    position: absolute;
+   top: 195px;
+   right: 375px;
+   width: 100px;
+   z-index: -2;
+}
+#cr13{
+    position: absolute;
+    top: 370px;
+    right: 470px;
+    /* width: 100px; */
+    z-index: -2;
+}
+#cr16{
+    position: absolute;
+    top: 130px;
+    right: 485px;
+    /* width: 100px; */
+    z-index: -2;
+}
+#cr14{
+    position: absolute;
+    bottom: 220px;
+    left: 380px;
+    width: 100px;
+    z-index: -2;
+}
+#cr17{
+    position: absolute;
+    bottom: 150px;
+    left: 420px;
+    width: 13px;
+    z-index: 2;
+ }
+ #cr15{
+    position: absolute;
+   top: 120px;
+   right: 420px;
+   width: 12px;  
+   z-index: 2;
+}
+
+
+
+
+
+
+
+
+.cards-7 {
+    width: 100%;
+    height: 100vh;
+    max-height: none;
+    max-width: none;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    text-align: left;
+    flex-flow: column;
+    flex: 0 auto;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 7vw 0 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    position: -webkit-sticky;
+    position: absolute;
+    /* top: -1500; */
+    bottom: auto;
+    overflow: hidden;
+}
+.purple-t {
+    margin: 0 auto;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 350px;
+    height: 500px;
+    text-align: start;
+    padding: 20px;
+    background-color: #df18ff;
+    color: #fff;
+}
+
+.purple-t h3 {
+    padding: 20px 20px 0px 0px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.purple-t button {
+    color: black;
+    background-color: #df18ff;
+    font-size: 25px;
+    padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 40px;
+    box-shadow: 5px 10px;
+}
+
+.purple-t button:hover {
+    background-color: white;
+    transition: .4s;
+}
+#fr1{
+    position: absolute;
+   bottom: 0px;
+   left: 150px;
+   z-index: 2;
+   width: 240px;
+}
+#fr2{
+    position: absolute;
+   top: 180px;
+   left: 220px;
+   width: 110px;
+   z-index: 2;
+}
+#fr3{
+   position: absolute;
+   top: 215px;
+   right: 470px;
+   width: 130px;
+   z-index: 2;
+}
+#fr4{
+    position: absolute;
+   bottom: 195px;
+   right: 230px;
+   width: 205px;  
+   z-index: 2;
+}
+#fr5{
+    position: absolute;
+   bottom: 1px;
+   right: 595px;
+   width: 148px;
+   z-index: 2;
+}
+#fr6{
+    position: absolute;
+   bottom: 200px;
+   left: 390px;
+   z-index: -2;
+   width: 185px;
+}
+
+@media screen and (max-width: 1000px) {
+    .second-none{
+        display: none;
+    }
+    #coin1{
+        width: 10%;
+    }
+}
