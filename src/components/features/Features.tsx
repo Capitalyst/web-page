@@ -1,8 +1,8 @@
 import React from "react";
 import "./Features.scss";
-import Bajaj from "../../assets/images/png/bajaj.png";
-import Muthoot from "../../assets/images/png/muthoot.png";
-import ICICI from "../../assets/images/png/icici.png";
+import Bajaj from "/assets/images/png/bajaj.png";
+import Muthoot from "/assets/images/png/muthoot.png";
+import ICICI from "/assets/images/png/icici.png";
 import { Link } from "react-router-dom";
 
 const Features: React.FC = () => {

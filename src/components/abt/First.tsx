@@ -2,10 +2,10 @@ import React, { useEffect } from 'react';
 import './bootstrap.min.css';
 import './style.css';
 
-import star1 from '../../assets/img/star1.svg';
-import star2 from '../../assets/img/star2.svg';
-import star3 from '../../assets/img/star3.svg';
-import coin1 from '../../assets/img/coin1.svg';
+import star1 from '/assets/img/star1.svg';
+import star2 from '/assets/img/star2.svg';
+import star3 from '/assets/img/star3.svg';
+import coin1 from '/assets/img/coin1.svg';
 
 const First: React.FC = () => {
   useEffect(() => {

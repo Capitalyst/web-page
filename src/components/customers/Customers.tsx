@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Customers.scss";
-import Apple from "../../assets/images/svg/apple.svg";
-import Google from "../../assets/images/svg/google.svg";
+import Apple from "/assets/images/svg/apple.svg";
+import Google from "/assets/images/svg/google.svg";
 
-import Ebere from "../../assets/images/png/testimonials/Ebere.jpeg";
-import Olabisi from "../../assets/images/png/testimonials/Olabisi A.jpg";
-import Racheal from "../../assets/images/png/testimonials/Racheal O.png";
-import Oluwadamilola from "../../assets/images/png/testimonials/Oluwadamilola A.jpg";
-import VinylDavyl from "../../assets/images/png/testimonials/Vinyl.jpg";
+import Ebere from "/assets/images/png/testimonials/Ebere.jpeg";
+import Olabisi from "/assets/images/png/testimonials/Olabisi A.jpg";
+import Racheal from "/assets/images/png/testimonials/Racheal O.png";
+import Oluwadamilola from "/assets/images/png/testimonials/Oluwadamilola A.jpg";
+import VinylDavyl from "/assets/images/png/testimonials/Vinyl.jpg";
 
 const Customers: React.FC = () => {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
 import "./Investment.scss";
 import { Link } from "react-router-dom";
-import Phone from "../../assets/images/png/phone.png";
-import Dot from "../../assets/images/svg/dotinvest.svg";
+import Phone from "/assets/images/png/phone.png";
+import Dot from "/assets/images/svg/dotinvest.svg";
 
 const Investment: React.FC = () => {
   return (

@@ -1,15 +1,15 @@
 import React from "react";
 import "./Hero.scss";
 import { Link } from "react-router-dom";
-import Investify from "../../assets/images/png/investify.png";
-import Rent from "../../assets/images/png/rent.png";
-import BoxBG from "../../assets/images/png/rex-bg.png";
-import Woman from "../../assets/images/png/lady.png";
-import Cross from "../../assets/images/svg/cross.svg";
-import Circle from "../../assets/images/svg/circle.svg";
-import Dot from "../../assets/images/svg/dot.svg";
-import Apple from "../../assets/images/svg/apple.svg";
-import Google from "../../assets/images/svg/google.svg";
+import Investify from "/assets/images/png/investify.png";
+import Rent from "/assets/images/png/rent.png";
+import BoxBG from "/assets/images/png/rex-bg.png";
+import Woman from "/assets/images/png/lady.png";
+import Cross from "/assets/images/svg/cross.svg";
+import Circle from "/assets/images/svg/circle.svg";
+import Dot from "/assets/images/svg/dot.svg";
+import Apple from "/assets/images/svg/apple.svg";
+import Google from "/assets/images/svg/google.svg";
 
 const Hero: React.FC = () => {
   return (
