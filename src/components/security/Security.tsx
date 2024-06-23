@@ -1,6 +1,6 @@
 import React from "react";
 import "./Security.scss";
-import Shield from "../../assets/images/png/shield.png";
+import Shield from "/assets/images/png/shield.png";
 
 const Security: React.FC = () => {
   return (

@@ -1,14 +1,14 @@
 import React from "react";
 import "./SavingsList.scss";
 
-import Image1 from "../../assets/images/png/image1.png";
-import Image2 from "../../assets/images/png/image2.png";
-import Image3 from "../../assets/images/png/image3.png";
-import Image4 from "../../assets/images/png/image4.png";
-import Svg1 from "../../assets/images/svg/forwardarrow1.svg";
-import Svg2 from "../../assets/images/svg/forwardarrow2.svg";
-import Svg3 from "../../assets/images/svg/forwardarrow3.svg";
-import Svg4 from "../../assets/images/svg/forwardarrow4.svg";
+import Image1 from "/assets/images/png/image1.png";
+import Image2 from "/assets/images/png/image2.png";
+import Image3 from "/assets/images/png/image3.png";
+import Image4 from "/assets/images/png/image4.png";
+import Svg1 from "/assets/images/svg/forwardarrow1.svg";
+import Svg2 from "/assets/images/svg/forwardarrow2.svg";
+import Svg3 from "/assets/images/svg/forwardarrow3.svg";
+import Svg4 from "/assets/images/svg/forwardarrow4.svg";
 import SavingType from "../generics/savingType/SavingType";
 
 const SavingsList: React.FC = () => {

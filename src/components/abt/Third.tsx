@@ -39,13 +39,13 @@ const App: React.FC = () => {
   return (
     <section>
       <div className="cards-2">
-        <img id="leaf1" src="src\assets\img\leaf1.svg" data-value="-5" className="object" />
-        <img id="leaf2" src="src\assets\img\leaf2.svg" data-value="-8" className="object" />
-        <img id="leaf3" src="src\assets\img\leaf3.svg" data-value="7" className="object" />
-        <img id="leaf4" src="src\assets\img\leaf4.svg" data-value="-6" className="object" />
-        <img id="leaf5" src="src\assets\img\leaf5.svg" data-value="-1" className="object" />
-        <img id="leaf6" src="src\assets\img\leaf6.svg" data-value="6" className="object" />
-        <img id="leaf7" src="src\assets\img\leaf7.svg" data-value="-6" className="object" />
+        <img id="leaf1" src="assets\img\leaf1.svg" data-value="-5" className="object" />
+        <img id="leaf2" src="assets\img\leaf2.svg" data-value="-8" className="object" />
+        <img id="leaf3" src="assets\img\leaf3.svg" data-value="7" className="object" />
+        <img id="leaf4" src="assets\img\leaf4.svg" data-value="-6" className="object" />
+        <img id="leaf5" src="assets\img\leaf5.svg" data-value="-1" className="object" />
+        <img id="leaf6" src="assets\img\leaf6.svg" data-value="6" className="object" />
+        <img id="leaf7" src="assets\img\leaf7.svg" data-value="-6" className="object" />
       </div>
 
       <div className="cards-1">
@@ -71,17 +71,17 @@ const App: React.FC = () => {
       </div>
 
       <div className="cards-3">
-        <img id="lock1" src="src\assets\img\lock1.svg" data-value="-3" className="object" />
-        <img id="lock2" src="src\assets\img\lock2.svg" data-value="5" className="object" />
-        <img id="lock3" src="src\assets\img\lock3.svg" data-value="6" className="object" />
-        <img id="lock4" src="src\assets\img\lock4.svg" data-value="-4" className="object" />
-        <img id="lock5" src="src\assets\img\lock5.svg" data-value="-3" className="object" />
-        <img id="lock6" src="src\assets\img\lock6.svg" data-value="4" className="object" />
-        <img id="lock7" src="src\assets\img\lock7.svg" data-value="5" className="object" />
-        <img id="lock8" src="src\assets\img\lock8.svg" data-value="6" className="object" />
-        <img id="lock9" src="src\assets\img\lock9.svg" data-value="-7" className="object" />
-        <img id="lock10" src="src\assets\img\lock10.svg" data-value="3" className="object" />
-        <img id="lock11" src="src\assets\img\lock11.svg" data-value="-5" className="object" />
+        <img id="lock1" src="assets\img\lock1.svg" data-value="-3" className="object" />
+        <img id="lock2" src="assets\img\lock2.svg" data-value="5" className="object" />
+        <img id="lock3" src="assets\img\lock3.svg" data-value="6" className="object" />
+        <img id="lock4" src="assets\img\lock4.svg" data-value="-4" className="object" />
+        <img id="lock5" src="assets\img\lock5.svg" data-value="-3" className="object" />
+        <img id="lock6" src="assets\img\lock6.svg" data-value="4" className="object" />
+        <img id="lock7" src="assets\img\lock7.svg" data-value="5" className="object" />
+        <img id="lock8" src="assets\img\lock8.svg" data-value="6" className="object" />
+        <img id="lock9" src="assets\img\lock9.svg" data-value="-7" className="object" />
+        <img id="lock10" src="assets\img\lock10.svg" data-value="3" className="object" />
+        <img id="lock11" src="assets\img\lock11.svg" data-value="-5" className="object" />
       </div>
 
       <div className="cards-1">
@@ -107,21 +107,21 @@ const App: React.FC = () => {
       </div>
 
       <div className="cards-4">
-        <img id="drop1" src="src\assets\img\drop1.svg" data-value="2" className="object" />
-        <img id="drop2" src="src\assets\img\drop2.svg" data-value="-2" className="object" />
-        <img id="drop3" src="src\assets\img\drop3.svg" data-value="2" className="object" />
-        <img id="drop4" src="src\assets\img\drop4.svg" data-value="-2" className="object" />
-        <img id="drop5" src="src\assets\img\drop5.svg" data-value="2" className="object" />
-        <img id="drop6" src="src\assets\img\drop6.svg" data-value="-2" className="object" />
-        <img id="drop7" src="src\assets\img\drop7.svg" data-value="2" className="object" />
-        <img id="drop8" src="src\assets\img\drop8.svg" data-value="-2" className="object" />
-        <img id="drop9" src="src\assets\img\drop9.svg" data-value="2" className="object" />
-        <img id="drop10" src="src\assets\img\drop10.svg" data-value="-2" className="object" />
-        <img id="drop11" src="src\assets\img\drop11.svg" data-value="2" className="object" />
-        <img id="drop12" src="src\assets\img\drop12.svg" data-value="-2" className="object" />
-        <img id="drop13" src="src\assets\img\drop13.svg" data-value="2" className="object" />
-        <img id="drop14" src="src\assets\img\drop14.svg" data-value="-2" className="object" />
-        <img id="drop15" src="src\assets\img\drop15.svg" data-value="2" className="object" />
+        <img id="drop1" src="assets\img\drop1.svg" data-value="2" className="object" />
+        <img id="drop2" src="assets\img\drop2.svg" data-value="-2" className="object" />
+        <img id="drop3" src="assets\img\drop3.svg" data-value="2" className="object" />
+        <img id="drop4" src="assets\img\drop4.svg" data-value="-2" className="object" />
+        <img id="drop5" src="assets\img\drop5.svg" data-value="2" className="object" />
+        <img id="drop6" src="assets\img\drop6.svg" data-value="-2" className="object" />
+        <img id="drop7" src="assets\img\drop7.svg" data-value="2" className="object" />
+        <img id="drop8" src="assets\img\drop8.svg" data-value="-2" className="object" />
+        <img id="drop9" src="assets\img\drop9.svg" data-value="2" className="object" />
+        <img id="drop10" src="assets\img\drop10.svg" data-value="-2" className="object" />
+        <img id="drop11" src="assets\img\drop11.svg" data-value="2" className="object" />
+        <img id="drop12" src="assets\img\drop12.svg" data-value="-2" className="object" />
+        <img id="drop13" src="assets\img\drop13.svg" data-value="2" className="object" />
+        <img id="drop14" src="assets\img\drop14.svg" data-value="-2" className="object" />
+        <img id="drop15" src="assets\img\drop15.svg" data-value="2" className="object" />
       </div>
 
       <div className="cards-1">
@@ -147,19 +147,19 @@ const App: React.FC = () => {
       </div>
 
       <div className="cards-5">
-        <img id="cl1" src="src\assets\img\cl1.svg" data-value="2" className="object" />
-        <img id="cl2" src="src\assets\img\cl2.svg" data-value="-2" className="object" />
-        <img id="cl3" src="src\assets\img\cl3.svg" data-value="2" className="object" />
-        <img id="cl4" src="src\assets\img\cl4.svg" data-value="-2" className="object" />
-        <img id="cl5" src="src\assets\img\cl5.svg" data-value="2" className="object" />
-        <img id="cl6" src="src\assets\img\cl6.svg" data-value="-2" className="object" />
-        <img id="cl7" src="src\assets\img\cl7.svg" data-value="2" className="object" />
-        <img id="cl8" src="src\assets\img\cl8.svg" data-value="-2" className="object" />
-        <img id="cl9" src="src\assets\img\cl9.svg" data-value="2" className="object" />
-        <img id="cl10" src="src\assets\img\cl10.svg" data-value="-2" className="object" />
-        <img id="cl11" src="src\assets\img\cl11.svg" data-value="2" className="object" />
-        <img id="cl12" src="src\assets\img\cl12.svg" data-value="-2" className="object" />
-        <img id="cl13" src="src\assets\img\cl13.svg" data-value="2" className="object" />
+        <img id="cl1" src="assets\img\cl1.svg" data-value="2" className="object" />
+        <img id="cl2" src="assets\img\cl2.svg" data-value="-2" className="object" />
+        <img id="cl3" src="assets\img\cl3.svg" data-value="2" className="object" />
+        <img id="cl4" src="assets\img\cl4.svg" data-value="-2" className="object" />
+        <img id="cl5" src="assets\img\cl5.svg" data-value="2" className="object" />
+        <img id="cl6" src="assets\img\cl6.svg" data-value="-2" className="object" />
+        <img id="cl7" src="assets\img\cl7.svg" data-value="2" className="object" />
+        <img id="cl8" src="assets\img\cl8.svg" data-value="-2" className="object" />
+        <img id="cl9" src="assets\img\cl9.svg" data-value="2" className="object" />
+        <img id="cl10" src="assets\img\cl10.svg" data-value="-2" className="object" />
+        <img id="cl11" src="assets\img\cl11.svg" data-value="2" className="object" />
+        <img id="cl12" src="assets\img\cl12.svg" data-value="-2" className="object" />
+        <img id="cl13" src="assets\img\cl13.svg" data-value="2" className="object" />
       </div>
 
       <div className="cards-1">
@@ -185,21 +185,21 @@ const App: React.FC = () => {
       </div>
 
       <div className="cards-5">
-        <img id="cr1" src="src\assets\img\cr1.svg" data-value="1" className="object" />
-        <img id="cr2" src="src\assets\img\cr2.svg" data-value="-1" className="object" />
-        <img id="cr3" src="src\assets\img\cr3.svg" data-value="1" className="object" />
-        <img id="cr4" src="src\assets\img\cr4.svg" data-value="-1" className="object" />
-        <img id="cr5" src="src\assets\img\cr5.svg" data-value="1" className="object" />
-        <img id="cr6" src="src\assets\img\cr6.svg" data-value="-1" className="object" />
-        <img id="cr7" src="src\assets\img\cr7.svg" data-value="1" className="object" />
-        <img id="cr8" src="src\assets\img\cr8.svg" data-value="-1" className="object" />
-        <img id="cr9" src="src\assets\img\cr9.svg" data-value="1" className="object" />
-        <img id="cr10" src="src\assets\img\cr10.svg" data-value="-1" className="object" />
-        <img id="cr11" src="src\assets\img\cr11.svg" data-value="1" className="object" />
-        <img id="cr12" src="src\assets\img\cr12.svg" data-value="-1" className="object" />
-        <img id="cr13" src="src\assets\img\cr13.svg" data-value="1" className="object" />
-        <img id="cr14" src="src\assets\img\cr14.svg" data-value="-1" className="object" />
-        <img id="cr15" src="src\assets\img\cr15.svg" data-value="1" className="object" />
+        <img id="cr1" src="assets\img\cr1.svg" data-value="1" className="object" />
+        <img id="cr2" src="assets\img\cr2.svg" data-value="-1" className="object" />
+        <img id="cr3" src="assets\img\cr3.svg" data-value="1" className="object" />
+        <img id="cr4" src="assets\img\cr4.svg" data-value="-1" className="object" />
+        <img id="cr5" src="assets\img\cr5.svg" data-value="1" className="object" />
+        <img id="cr6" src="assets\img\cr6.svg" data-value="-1" className="object" />
+        <img id="cr7" src="assets\img\cr7.svg" data-value="1" className="object" />
+        <img id="cr8" src="assets\img\cr8.svg" data-value="-1" className="object" />
+        <img id="cr9" src="assets\img\cr9.svg" data-value="1" className="object" />
+        <img id="cr10" src="assets\img\cr10.svg" data-value="-1" className="object" />
+        <img id="cr11" src="assets\img\cr11.svg" data-value="1" className="object" />
+        <img id="cr12" src="assets\img\cr12.svg" data-value="-1" className="object" />
+        <img id="cr13" src="assets\img\cr13.svg" data-value="1" className="object" />
+        <img id="cr14" src="assets\img\cr14.svg" data-value="-1" className="object" />
+        <img id="cr15" src="assets\img\cr15.svg" data-value="1" className="object" />
       </div>
 
       <div className="cards-1">
