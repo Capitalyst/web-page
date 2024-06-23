@@ -3,7 +3,7 @@ import './bootstrap.min.css'
 import './style.css'
 
 const App: React.FC = () => {
-  const [buttonColors, setButtonColors] = useState<{ [key: string]: string }>({});
+  const [_buttonColors, setButtonColors] = useState<{ [key: string]: string }>({});
   const [activeButtons, setActiveButtons] = useState<{ [key: string]: string }>({});
 
   const handleButtonClick = (questionId: string, buttonId: string, color: string) => {
